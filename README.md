@@ -1,5 +1,7 @@
 # Long Vol Radar
 
+[Open the dashboard](https://mkitt2501.github.io/long-vol-radar/)
+
 A morning research dashboard for exploratory GLD same-day options hypotheses. It shows when frozen signal rules qualify, keeps overlapping checks together, and preserves the evidence that weakens each idea.
 
 The app is intentionally useful without an account or API key. The included snapshots contain **invented inputs**, visibly labeled as a demonstration. They are not live prices, historical market observations, or simulated trading returns.
