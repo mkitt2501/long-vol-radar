@@ -1,0 +1,897 @@
+{
+  "mixed": {
+    "schemaVersion": 1,
+    "date": "2026-10-07",
+    "asOf": "2026-10-07T10:01:00-04:00",
+    "mode": "demo",
+    "source": "Invented research demonstration",
+    "session": {
+      "isTradingDay": true,
+      "isFullSession": true,
+      "has0dte": true
+    },
+    "observations": {
+      "weeklyRatioRank": {
+        "value": 0.52,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyCoverageValid": {
+        "value": true,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightRvRank": {
+        "value": 0.86,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightNetRangeRatio": {
+        "value": 0.12,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightFreshMinutes": {
+        "value": 850,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightQuarterCloses": {
+        "value": 62,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightAnchorsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresAcceleration": {
+        "value": 1.6,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRv5": {
+        "value": 0.0012,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresCloseCount": {
+        "value": 36,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresWindowValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRecheckValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIv": {
+        "value": 0.29,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvP10": {
+        "value": 0.25,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvValidMinutes": {
+        "value": 27,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock1": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock2": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock3": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvSourceValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn1": {
+        "value": 0.006,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn2": {
+        "value": 0.002,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn3": {
+        "value": 0.004,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauSessionsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauOptionSelectionValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroPreopenEvents": {
+        "value": 1,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroCoreIntradayEvents": {
+        "value": 0,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroCalendarComplete": {
+        "value": true,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "gldOpeningGap": {
+        "value": 0.002,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsideFirstTouch": {
+        "value": false,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsidePathValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousAsk": {
+        "value": 0.02,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyAsk": {
+        "value": 0.03,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyQuotesValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyUniverseValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyFirstAttemptAvailable": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyCandidateIsCall": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      }
+    }
+  },
+  "aligned": {
+    "schemaVersion": 1,
+    "date": "2026-10-07",
+    "asOf": "2026-10-07T10:01:00-04:00",
+    "mode": "demo",
+    "source": "Invented research demonstration",
+    "session": {
+      "isTradingDay": true,
+      "isFullSession": true,
+      "has0dte": true
+    },
+    "observations": {
+      "weeklyRatioRank": {
+        "value": 0.82,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyCoverageValid": {
+        "value": true,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightRvRank": {
+        "value": 0.86,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightNetRangeRatio": {
+        "value": 0.12,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightFreshMinutes": {
+        "value": 850,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightQuarterCloses": {
+        "value": 62,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightAnchorsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresAcceleration": {
+        "value": 2.4,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRv5": {
+        "value": 0.0012,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresCloseCount": {
+        "value": 36,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresWindowValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRecheckValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIv": {
+        "value": 0.22,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvP10": {
+        "value": 0.25,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvValidMinutes": {
+        "value": 27,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock1": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock2": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock3": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvSourceValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn1": {
+        "value": 0.006,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn2": {
+        "value": 0.002,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn3": {
+        "value": 0.004,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauSessionsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauOptionSelectionValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroPreopenEvents": {
+        "value": 1,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroCoreIntradayEvents": {
+        "value": 0,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroCalendarComplete": {
+        "value": true,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "gldOpeningGap": {
+        "value": 0.002,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsideFirstTouch": {
+        "value": false,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsidePathValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousAsk": {
+        "value": 0.02,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyAsk": {
+        "value": 0.02,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyQuotesValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyUniverseValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyFirstAttemptAvailable": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyCandidateIsCall": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      }
+    }
+  },
+  "quiet": {
+    "schemaVersion": 1,
+    "date": "2026-10-07",
+    "asOf": "2026-10-07T10:01:00-04:00",
+    "mode": "demo",
+    "source": "Invented research demonstration",
+    "session": {
+      "isTradingDay": true,
+      "isFullSession": true,
+      "has0dte": true
+    },
+    "observations": {
+      "weeklyRatioRank": {
+        "value": 0.38,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyCoverageValid": {
+        "value": true,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightRvRank": {
+        "value": 0.42,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightNetRangeRatio": {
+        "value": 0.6,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightFreshMinutes": {
+        "value": 850,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightQuarterCloses": {
+        "value": 62,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightAnchorsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresAcceleration": {
+        "value": 0.9,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRv5": {
+        "value": 0.0004,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresCloseCount": {
+        "value": 36,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresWindowValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRecheckValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIv": {
+        "value": 0.32,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvP10": {
+        "value": 0.25,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvValidMinutes": {
+        "value": 27,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock1": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock2": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock3": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvSourceValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn1": {
+        "value": 0.006,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn2": {
+        "value": -0.003,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn3": {
+        "value": 0.004,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauSessionsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauOptionSelectionValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroPreopenEvents": {
+        "value": 0,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroCoreIntradayEvents": {
+        "value": 0,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroCalendarComplete": {
+        "value": true,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "gldOpeningGap": {
+        "value": 0.002,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsideFirstTouch": {
+        "value": false,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsidePathValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousAsk": {
+        "value": 0.02,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyAsk": {
+        "value": 0.04,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyQuotesValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyUniverseValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyFirstAttemptAvailable": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyCandidateIsCall": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      }
+    }
+  },
+  "missing": {
+    "schemaVersion": 1,
+    "date": "2026-10-07",
+    "asOf": "2026-10-07T10:01:00-04:00",
+    "mode": "demo",
+    "source": "Invented research demonstration",
+    "session": {
+      "isTradingDay": true,
+      "isFullSession": true,
+      "has0dte": true
+    },
+    "observations": {
+      "weeklyRatioRank": {
+        "value": 0.82,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightRvRank": {
+        "value": 0.86,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightNetRangeRatio": {
+        "value": 0.12,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightQuarterCloses": {
+        "value": 62,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightAnchorsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRv5": {
+        "value": 0.0012,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresCloseCount": {
+        "value": 36,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresWindowValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "futuresRecheckValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIv": {
+        "value": 0.22,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvP10": {
+        "value": 0.25,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvValidMinutes": {
+        "value": 27,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock1": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock2": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvBlock3": {
+        "value": 9,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn2": {
+        "value": 0.002,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn3": {
+        "value": 0.004,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauSessionsValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauOptionSelectionValid": {
+        "value": true,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroPreopenEvents": {
+        "value": 1,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "macroCoreIntradayEvents": {
+        "value": 0,
+        "observedAt": "2026-10-07T09:30:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "gldOpeningGap": {
+        "value": 0.002,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsideFirstTouch": {
+        "value": false,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "downsidePathValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyPreviousAsk": {
+        "value": 0.02,
+        "observedAt": "2026-10-07T10:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyBid": {
+        "value": 0.01,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyAsk": {
+        "value": 0.02,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyUniverseValid": {
+        "value": true,
+        "observedAt": "2026-10-07T09:31:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyFirstAttemptAvailable": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "pennyCandidateIsCall": {
+        "value": true,
+        "observedAt": "2026-10-07T10:01:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      }
+    }
+  },
+  "early": {
+    "schemaVersion": 1,
+    "date": "2026-10-07",
+    "asOf": "2026-10-07T09:00:00-04:00",
+    "mode": "demo",
+    "source": "Invented research demonstration",
+    "session": {
+      "isTradingDay": true,
+      "isFullSession": true,
+      "has0dte": true
+    },
+    "observations": {
+      "weeklyRatioRank": {
+        "value": 0.82,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "weeklyCoverageValid": {
+        "value": true,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "overnightHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvP10": {
+        "value": 0.25,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "openingIvHistoryCount": {
+        "value": 60,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn2": {
+        "value": 0.002,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      },
+      "xauReturn3": {
+        "value": 0.004,
+        "observedAt": "2026-10-06T16:00:00-04:00",
+        "source": "Invented demo input; not observed market data"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A morning research board for exploratory long-volatility hypotheses. Inspect signal rules, supporting evidence, and data quality.">
+  <title>Long Vol Radar · Morning research</title>
+  <link rel="stylesheet" href="styles.css?v=2.1">
+</head>
+<body>
+  <header class="header"><div class="header-inner">
+    <a class="brand" href="#" aria-label="Long Vol Radar home"><span class="brand-mark" aria-hidden="true">◈</span> LONG VOL <strong>RADAR</strong></a>
+    <nav aria-label="Main navigation"><button class="nav active" data-view="board">Radar</button><button class="nav" data-view="history">History</button><button class="nav" data-view="methodology">How it works</button></nav>
+    <span class="asset-chip">GLD <span>0DTE</span></span>
+  </div></header>
+  <main>
+    <div id="data-banner" class="data-banner" role="status"></div>
+    <section class="page-heading"><div><div class="eyebrow">GLD / MORNING SIGNALS</div><h1>Morning radar<span class="heading-period">.</span></h1></div><div class="heading-date"><span id="snapshot-date"></span><small id="snapshot-time"></small></div></section>
+    <div id="notice" role="alert" hidden></div>
+    <section class="toolbar" aria-label="Snapshot controls">
+      <label class="select-label">Snapshot <select id="scenario" aria-label="Snapshot scenario"><option value="mixed">Demo · Mixed</option><option value="aligned">Demo · Aligned</option><option value="quiet">Demo · Quiet</option><option value="missing">Demo · Missing data</option><option value="early">Demo · Pre-open</option></select></label>
+      <div class="toolbar-actions"><details class="tools-menu"><summary class="button">Inputs & data <span aria-hidden="true">⌄</span></summary><div class="tools-dropdown"><button id="edit-button">Review inputs</button><button id="import-button">Import snapshot</button><button id="export-button">Export snapshot</button></div></details><button id="save-button" class="button primary">Save morning <span aria-hidden="true">↗</span></button></div>
+      <input id="import-file" type="file" accept="application/json,.json" hidden>
+    </section>
+    <section id="board-view">
+      <section class="overview" aria-label="Signal overview">
+        <div class="overview-main"><div class="eyebrow">VOLATILITY CHECKS</div><div class="confluence-line"><strong id="qualified-count">—</strong><span>of 4 green</span><span class="divider">/</span><strong id="driver-count">—</strong><span>driver groups</span></div><div id="driver-pills" class="driver-pills"></div></div>
+        <div class="overview-side"><p id="overview-text"></p><div class="mini-stats"><div class="mini-stat"><span id="waiting-count">—</span><small>waiting</small></div><div class="mini-stat"><span id="missing-count">—</span><small>no data</small></div></div></div>
+      </section>
+      <div class="section-heading"><div><h2>Volatility signals</h2></div><span class="click-hint">Click a light to inspect <span aria-hidden="true">↗</span></span></div>
+      <div id="vol-cards" class="cards"></div>
+      <div class="context-layout"><section class="context-group"><div class="section-heading secondary-heading"><h2>Direction & calendar</h2><span class="section-label">CONTEXT</span></div><div id="directional-cards" class="cards"></div></section><section class="experimental-group"><div class="section-heading secondary-heading"><h2>Experimental</h2><span class="section-label">UNTESTED</span></div><div id="experimental-cards" class="cards"></div></section></div>
+      <section class="board-note"><div class="legend"><span><i class="dot qualified"></i>Rule met</span><span><i class="dot not-qualified"></i>Not met</span><span><i class="dot waiting"></i>Waiting</span><span><i class="dot unavailable"></i>No data</span></div><button id="about-board">Evidence & overlap <span aria-hidden="true">↗</span></button></section>
+    </section>
+    <section id="history-view" hidden><div class="section-heading"><div><h2>Your morning log</h2><p>Snapshots saved in this browser. Export a copy before clearing browser storage.</p></div><button id="export-log" class="button">Export log</button></div><div id="history-content"></div></section>
+    <section id="methodology-view" hidden class="methodology">
+      <div class="section-heading"><div><h2>Mechanical signals. Visible uncertainty.</h2><p>A research tool built around saved GLD and gold-market experiments.</p></div></div>
+      <div class="method-grid"><article><span class="method-number">01</span><h3>Freeze the rules</h3><p>The board evaluates the documented signal criteria. Alternative entry times, strike distances and exits do not become additional confirmations.</p></article><article><span class="method-number">02</span><h3>Keep overlap honest</h3><p>Related checks share a driver. Directional signals and weak experimental checks are reported separately. Driver groups are a research taxonomy, not proof of statistical independence.</p></article><article><span class="method-number">03</span><h3>Check the clock and the feed</h3><p>A rule stays waiting before its observation time. Missing, stale, future-dated or invalid inputs cannot produce a green light. An ended entry window expires the signal.</p></article><article><span class="method-number">04</span><h3>Preserve the contrary evidence</h3><p>Each card pairs the trigger with the saved results and limitations. Midpoint marks, incomplete exit coverage, small samples and failed follow-ups remain visible.</p></article></div>
+      <article class="method-callout"><h3>What this version does</h3><p>Evaluates a supplied morning snapshot, explains each criterion, groups overlapping signals, and saves an auditable observation log. The demonstration uses invented inputs. The import contract supports a read-only market-data export without exposing brokerage credentials.</p><p><strong>What it does not infer:</strong> live quote availability, guaranteed fills, profitable option pricing, or a combined strategy edge. No orders are submitted. Option returns in the research summaries are returns on premium spent, not account returns.</p></article>
+      <div id="rule-catalog"></div>
+    </section>
+    <footer><span>LONG VOL RADAR</span><p>Independent financial research prototype · Michael Kitt</p><button id="template-button">Download snapshot template ↓</button></footer>
+  </main>
+  <dialog id="inspector"><div class="dialog-top"><span class="eyebrow">SIGNAL INSPECTOR</span><button class="icon-button close-dialog" aria-label="Close inspector">✕</button></div><div id="inspector-content"></div></dialog>
+  <dialog id="input-dialog"><div class="dialog-top"><span class="eyebrow">MORNING SNAPSHOT</span><button class="icon-button close-dialog" aria-label="Close inputs">✕</button></div><h2>Review the inputs.</h2><p class="dialog-intro">Missing values stay missing. Entered values are recorded as a manual observation; they are not a live feed.</p><div id="input-error" role="alert" hidden></div><form id="input-form"><div class="input-meta"><label>Session date<input id="input-date" type="date" required></label><label>As of (New York)<input id="input-time" type="time" required></label><label>Source<input id="input-source" type="text" maxlength="180" placeholder="Source or worksheet name" required></label></div><div class="session-flags"><label><input id="trading-day" type="checkbox"> Trading day</label><label><input id="full-session" type="checkbox"> Full session</label><label><input id="expiry-day" type="checkbox"> Listed GLD same-day expiry</label></div><div id="input-fields"></div><div class="form-actions"><button type="button" id="blank-inputs" class="button">Clear values</button><button type="submit" class="button primary">Evaluate snapshot</button></div></form></dialog>
+  <script type="module" src="app.mjs?v=2"></script>
+</body>
+</html>

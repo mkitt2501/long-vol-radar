@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+*.pyc
+__pycache__/
+.env*
+!.env.example
+.openai/
+.codex/
+private-data/
+data/
+exports/
+snapshots/
+*.log
+*.tar.gz
+*.zip
